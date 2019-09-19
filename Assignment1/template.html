@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="SearchForm.css" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 
 <head>
     <title>
@@ -9,15 +12,46 @@
 </head>
 
 <body>
-
-        <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="news.asp">News</a></li>
-                <li><a href="contact.asp">Contact</a></li>
-                <li><a href="about.asp">About</a></li>
-        </ul>
-
-
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Pet Search</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Submission</a></li>
+                  </ul>
+                </div>
+              </nav>
+              
+        <div class="container">
+                <div class="jumbotron">
+                        <form action="" method="" name="" > 
+                            <div class="jumbotron">
+                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            </div> 
+                            <div class="jumbotron">
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                                    <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">✩</a></li>
+                                        <li><a href="#">✩✩</a></li>
+                                        <li><a href="#">✩✩✩</a></li>
+                                        <li><a href="#">✩✩✩✩</a></li>
+                                        <li><a href="#">✩✩✩✩✩</a></li>
+                                    </ul>
+                                </div>        
+                            </div>
+                        <div class="jumbotron">
+                            <input type="submit" value="Submit" class="btn btn-info">
+                        </div>                    
+                            </form>
+                    
+                </div>"
+            </div>
+        
 </body>
 
 <footer>
